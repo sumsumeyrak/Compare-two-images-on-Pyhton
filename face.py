@@ -22,8 +22,8 @@ import matplotlib.pyplot as plt
 # (python face.py --ilk resimler/k1.png	--ikinci resimler/k3_02.png
 #imageA = cv2.imread(args["first"])
 #imageB = cv2.imread(args["second"])
-imageA = cv2.imread("Plaka1.jpg")
-imageB = cv2.imread("Plaka1h.jpg")
+imageA = cv2.imread("im1.jpg")
+imageB = cv2.imread("im2.jpg")
 # 4. Convert the images to grayscale
 grayA = cv2.cvtColor(imageA, cv2.COLOR_BGR2GRAY)
 grayB = cv2.cvtColor(imageB, cv2.COLOR_BGR2GRAY)
