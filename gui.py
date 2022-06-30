@@ -37,7 +37,7 @@ while True:
         break
     elif k%256 == 32:
         # SPACE pressed
-        img_name = "img{}.jpg".format(img_counter)
+        img_name = "im{}.jpg".format(img_counter)
         cv2.imwrite(img_name, frame)
         print("{} resim kaydediliyor!".format(img_name))
         img_counter += 1
